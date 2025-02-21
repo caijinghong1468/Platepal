@@ -1,10 +1,13 @@
-# DBMS Final:　Platepal
+# Platepal
 
-# 專案說明
+`PLATEPAL` is a user-friendly platform that automatically tracks and aggregates calorie and nutrient data from logged meals, supports personal goals, and fosters group collaboration for weight loss, muscle gain, or overall wellness.
+## ER-Model
+<img src="/ER-model.png" alt=" " />  
 
-PLATEPAL 是一個方便使用者紀錄飲食和營養素攝取的平台，系統能根據使用者自行紀錄之飲食內容，自動統整熱量與營養素資訊。除了個人飲食追蹤功能，PLATEPAL 還具備目標與小組功能，讓使用者不僅能自我監督，還能與他人一起互相激勵，達成共同的飲食與健康目標。此系統適合希望改善健康狀況或達成特定目標（如減重、增肌或維持健康）之使用者。
+## Relational Schema
+<img src="/relational schema.png" alt=" " />  
 
-# **Database Schema**
+## Database Schema
 
 The database contains the following tables:
 
@@ -67,11 +70,16 @@ The database contains the following tables:
 - **`Members`**: Integer, Primary Key, Foreign Key (references USERS(ID))
 
 
-# **Backend Features**
+# System Features
+**1. Personal Features:**  
+-  Users can create, update, and delete their personal data (including account information and personal details).  
+-  Users can independently add, update, and delete their meal records (including meal content and time).  
 
-### **Management**
+**2. Goal Features:**  
+-  Users can set, update, and delete their dietary goals (including goal duration and nutritional targets).  
+-  The system automatically tracks actual dietary data to help users assess whether they have met their goals.  
 
-- **Check User's Information**: Check if a user already exists or update it.
-- **Add Meal**: Add a new meal to the databases.
-- **Join Group**: Join a new group to cheeck the member. 
-- **Set goal**: Someone can set their goal and check the goal in joined groups.
+**3. Group Features:**  
+-  Users can create, join, and leave friend groups. Group leaders have the authority to delete groups.  
+-  Users can review their own and group members’ goal progress and meal records.  
+
