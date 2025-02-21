@@ -1,6 +1,9 @@
 # Platepal
 
 `PLATEPAL` is a user-friendly platform that automatically tracks and aggregates calorie and nutrient data from logged meals, supports personal goals, and fosters group collaboration for weight loss, muscle gain, or overall wellness.
+## System Architecture  
+<img src="/System Architecture.png" alt=" " />  
+
 ## ER-Model
 <img src="/ER-model.png" alt=" " />  
 
